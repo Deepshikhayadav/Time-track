@@ -22,6 +22,8 @@ class NewActivity : AppCompatActivity() {
     var rBreak= ArrayList<Long>()
     var totalTime:Long=0
     val db = Firebase.firestore
+
+    // companion objects are same as static var in java
     companion object{
         var start2 by Delegates.notNull<Long>()
         var end2 by Delegates.notNull<Long>()

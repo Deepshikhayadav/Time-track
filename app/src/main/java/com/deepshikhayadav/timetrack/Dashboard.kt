@@ -35,7 +35,7 @@ class Dashboard : AppCompatActivity() {
     val db = Firebase.firestore
 
     private lateinit var auth: FirebaseAuth
-
+    // companion objects are same as static var in java
     companion object{
         lateinit var s:String
         var docRef:String?=null
