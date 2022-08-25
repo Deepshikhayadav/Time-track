@@ -99,10 +99,8 @@ class MainActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
         //  updateUI(currentUser);
         if(currentUser!=null){
-
-                    startActivity(Intent(applicationContext,Dashboard::class.java))
-                    finish()
-
+            startActivity(Intent(applicationContext,Dashboard::class.java))
+            finish()
         }
 
 
